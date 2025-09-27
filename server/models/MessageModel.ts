@@ -10,4 +10,4 @@ const myURI = '';
 
 
 
-module.exports = null; // <-- export your model
+export default null; // <-- export your model
