@@ -14,21 +14,13 @@ Follow the directions in this README for detailed instructions, then make a PR f
 
 While developing your application, use an API client ([Postman](https://www.getpostman.com/), [Yaak](https://yaak.app/), [Bruno](https://www.usebruno.com/), etc.) to test your server logic.
 
-<!--## Important Notes for Us to Test Your Application
-
-You are not given any code to test your application, but we will run tests on your Pull Request. In order for these tests to run properly, please adhere to the following:
-
-- While you are free to add any additional files you want, **do not edit the file structure or delete existing files**
-- Likewise you can add additional HTML elements, IDs, and classes, but **do not remove existing hardcoded HTML elements/attributes**
-- If you are told to send or display a certain string or to name a file or function a certain name, copy-paste the string **exactly** as it is shown. Alternate text or differing capitalization will fail the tests.
-- Run your server and test out your application before submitting! Even if things are not working 100% correctly, you should be able to catch and remove any syntax or reference errors just by running your application
-- You are free to edit the stylesheet as you please!-->
-
 ## Getting Started
 
 - [ ] Fork and clone this repository. If you need a refresher, just follow the instructions found [here](https://github.com/CodesmithLLC/dev-environment-setup/blob/main/fork-clone.md)!
 
-- [ ] Run `npm install` to install any dependencies
+- [ ] Run `npm install` to install initial dependencies
+
+NOTE: You may need to add additional dependencies while building your application.
 
 ## PART 1: Server
 
