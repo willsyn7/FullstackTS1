@@ -2,7 +2,7 @@
 
 ## Overview
 
-This assessment will require you build a full stack web application: a message board where users can post and view messages. Users of your application will be able to:
+This assessment will require you to build a full stack web application: a message board where users can post and view messages. Users of your application will be able to:
 
 - view all posted messages from the database
 - post a new message to the database
