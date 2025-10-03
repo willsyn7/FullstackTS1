@@ -59,7 +59,7 @@ A Vite dev server has already been configured to run via the command `npm run de
 
 - [ ] Clicking on any list item's "Delete" button should remove the item from the database. (Later, you will authenticate before deleting.)
 
-- [ ] The application should poll for new messages and refresh the diplay whenever the "Refresh" button is clicked, whenever a new message is posted, or whenever a message is deleted.
+- [ ] The application should poll for new messages and refresh the display whenever the "Refresh" button is clicked, whenever a new message is posted, or whenever a message is deleted.
 
 ## PART 3: Auth
 
