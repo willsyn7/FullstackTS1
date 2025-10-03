@@ -1,4 +1,4 @@
-// v-- REPLACE THE EMPTY STRING WITH YOUR LOCAL/MLAB/ELEPHANTSQL URI
+// REPLACE THE EMPTY STRING WITH YOUR LOCAL/MLAB/SUPABASE URI
 const myURI = '';
 
 // UNCOMMENT THE LINE BELOW IF USING MONGO
@@ -10,4 +10,4 @@ const myURI = '';
 
 
 
-module.exports = null; // <-- export your model
+export default null; // <-- export your model
