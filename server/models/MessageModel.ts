@@ -1,13 +1,29 @@
-// REPLACE THE EMPTY STRING WITH YOUR LOCAL/MLAB/SUPABASE URI
-const myURI = '';
-
-// UNCOMMENT THE LINE BELOW IF USING MONGO
-// const URI = process.env.MONGO_URI || myURI;
-
-// UNCOMMENT THE LINE BELOW IF USING POSTGRESQL
-// const URI = process.env.PG_URI || myURI;
+import {Pool} from "pg";
 
 
 
+const myURI = 'postgresql://postgres.wlrwtsxgmbauvnmhaedn:Potatoe123!@aws-1-us-east-1.pooler.supabase.com:6543/postgres';
 
-export default null; // <-- export your model
+
+ const URI = process.env.PG_URI || myURI;
+ 
+ const pool = new Pool({
+    connectionString : URI
+
+ })
+
+ const checkDatabaseConnection = async () => {
+    try{
+        await pool.query(`SELECT NOW()`)
+        console.log(`Sucessfully established DB`)
+            
+    }catch(error){
+        console.log(`Error whiel Db conenction`,error);
+    }
+
+ }
+ 
+
+
+
+export  {pool,checkDatabaseConnection}; 

@@ -16,9 +16,9 @@ While developing your application, use an API client ([Postman](https://www.getp
 
 ## Getting Started
 
-- [ ] Fork and clone this repository. If you need a refresher, just follow the instructions found [here](https://github.com/CodesmithLLC/dev-environment-setup/blob/main/fork-clone.md)!
+- [ X] Fork and clone this repository. If you need a refresher, just follow the instructions found [here](https://github.com/CodesmithLLC/dev-environment-setup/blob/main/fork-clone.md)!
 
-- [ ] Run `npm install` to install initial dependencies
+- [X ] Run `npm install` to install initial dependencies
 
 NOTE: You may need to add additional dependencies while building your application.
 
@@ -26,13 +26,13 @@ NOTE: You may need to add additional dependencies while building your applicatio
 
 First, write the logic for a RESTful web API server in the `server/` directory.
 
-- [ ] In `server/server.ts`, create an HTTP server that listens on port **3434**. (We recommend Express, although you may use the built-in Node.js http module without a framework if you'd prefer.)
+- [X] In `server/server.ts`, create an HTTP server that listens on port **3434**. (We recommend Express, although you may use the built-in Node.js http module without a framework if you'd prefer.)
 
-- [ ] In `server/models/MessageModel.ts`, implement a database using either PostgreSQL or MongoDB. This is where you'll store messages posted by your users.
+- [X ] In `server/models/MessageModel.ts`, implement a database using either PostgreSQL or MongoDB. This is where you'll store messages posted by your users.
   - [ ] Create a collection/table called "Message".
-  - [ ] All items in the database **must** have a property `message` which is a string
-  - [ ] All items **must** also have a property `password` which is a string
-  - [ ] Additionally, all items should be stored with the datetime they were `created_at`. This should default to the current datetime.
+  - [ X] All items in the database **must** have a property `message` which is a string
+  - [X ] All items **must** also have a property `password` which is a string
+  - [ X] Additionally, all items should be stored with the datetime they were `created_at`. This should default to the current datetime.
 - [ ] In `server/controllers/messageController.ts`, add the following functionality as a middleware controller. (Since these functions will act as middleware, they should take the appropriate arguments and perform the necessary callback operation(s).)
   - [ ] `messageController.postMessage` should create a new item in the database
   - [ ] `messageController.getMessages` should retrieve all items from the database and send it back to the client as JSON
