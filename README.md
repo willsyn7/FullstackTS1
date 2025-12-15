@@ -34,10 +34,10 @@ First, write the logic for a RESTful web API server in the `server/` directory.
   - [X ] All items **must** also have a property `password` which is a string
   - [ X] Additionally, all items should be stored with the datetime they were `created_at`. This should default to the current datetime.
 - [ ] In `server/controllers/messageController.ts`, add the following functionality as a middleware controller. (Since these functions will act as middleware, they should take the appropriate arguments and perform the necessary callback operation(s).)
-  - [ ] `messageController.postMessage` should create a new item in the database
-  - [ ] `messageController.getMessages` should retrieve all items from the database and send it back to the client as JSON
-  - [ ] `messageController.deleteMessage` should find items in the database based on an `id` and delete the `message` if it exists. (Later, you will be asked to authenticate before deleting the message.)
-- [ ] Finally, return to `server/server.ts` to create appropriate route handlers for each operation your server will support (getting messages, posting a new message & deleting an existing message) on the `/api/messages` endpoint.
+  - [ X] `messageController.postMessage` should create a new item in the database
+  - [X ] `messageController.getMessages` should retrieve all items from the database and send it back to the client as JSON
+  - [X ] `messageController.deleteMessage` should find items in the database based on an `id` and delete the `message` if it exists. (Later, you will be asked to authenticate before deleting the message.)
+- [ X] Finally, return to `server/server.ts` to create appropriate route handlers for each operation your server will support (getting messages, posting a new message & deleting an existing message) on the `/api/messages` endpoint.
 
 ## PART 2: Client
 
